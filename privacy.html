@@ -21,15 +21,20 @@
 
 <section id="en">
 <h1>Teknote Privacy Policy</h1>
-<p class="meta">App: Teknote: Notes, PDF &amp; Planner (com.teknote.app) · Developer: [DEVELOPER_NAME] · Effective: [EFFECTIVE_DATE]</p>
+<p class="meta">App: Teknote: Notes, PDF &amp; Planner (com.teknote.app) · Developer: Jootopia · Effective: 12 November 2026</p>
 
-<p><strong>Short version:</strong> Teknote works offline. We do not run user accounts or servers for your notes, and we do not collect, receive or sell your personal data. Your notes stay on your device. The only time anything leaves your device is when <em>you</em> turn on an AI feature with <em>your own</em> API key.</p>
+<p><strong>Short version:</strong> Teknote works offline. We do not run user accounts or servers for your notes, and we do not collect, receive or sell your personal data. Your notes stay on your device. Anything leaves your device only when <em>you</em> turn on an AI feature with <em>your own</em> API key, or turn on backup to <em>your own</em> Google Drive.</p>
 
 <h2>1. What stays on your device</h2>
 <p>Your notebooks, handwriting, imported PDFs and images, planner pages and app settings are stored only on your device. We have no access to them. Deleting the app deletes this data from the device. Use the in-app export to keep a copy.</p>
 
 <h2>2. Backups</h2>
-<p>If Android Backup is enabled on your phone, Android may back up Teknote's database to your own Google account. This is done by Android and Google under your device settings, not by us. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+<ul>
+  <li><strong>Backup file:</strong> you can save the whole library to a file and choose where it goes (for example your phone or a cloud folder) with Android's file picker.</li>
+  <li><strong>Daily Google Drive backup (Premium, optional):</strong> when you turn it on and sign in, Teknote uploads one backup file of your notebooks (including audio recordings) once a day to a hidden app folder in <em>your own</em> Google Drive (scope <code>drive.appdata</code>). Teknote can see only that file, not the rest of your Drive. The upload goes from your device to Google over HTTPS, never through a server of ours. Turn it off in Settings; you can delete the hidden data in Google Drive under Settings → Manage apps → Teknote.</li>
+  <li>If Android Backup is enabled on your phone, Android may back up Teknote's data to your Google account. This is done by Android and Google under your device settings, not by us.</li>
+</ul>
+<p>See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
 <h2>3. AI features (optional, bring your own key)</h2>
 <p>Teknote can summarise pages, check spelling and test your understanding using an AI provider that you choose: Google Gemini, OpenAI or Anthropic Claude. These features are off until you add your own API key.</p>
@@ -45,8 +50,12 @@
 
 <h2>5. Permissions</h2>
 <ul>
-  <li><strong>Internet</strong>: used only for AI requests you start, and for Google Play purchases.</li>
-  <li>Files and images: you pick them yourself with Android's system file picker. Teknote does not scan your storage.</li>
+  <li><strong>Internet</strong>: used only for AI requests you start, Google Play purchases and the Google Drive backup you turn on.</li>
+  <li><strong>Microphone</strong> (Premium audio notes): records only while you tap record in a notebook. Recordings stay on your device inside that notebook, and travel only in backups and .teknote files you make.</li>
+  <li><strong>Camera / document scanner</strong> (Premium): scanning uses Google Play services' document scanner on your device. Teknote does not request the camera permission and receives only the finished PDF.</li>
+  <li><strong>Fingerprint or screen lock</strong> (Premium notebook lock): Android checks your fingerprint or screen lock. Teknote never sees your fingerprint or PIN; it only learns whether the check passed.</li>
+  <li><strong>Notifications</strong>: a weekly backup reminder, which you can turn off.</li>
+  <li>Files and images: you pick them yourself with Android's system file picker or photo picker. Teknote does not scan your storage.</li>
 </ul>
 
 <h2>6. What we do not do</h2>
@@ -62,20 +71,25 @@
 <p>If this policy changes, we will update this page and the effective date, and describe significant changes in the app update notes.</p>
 
 <h2>10. Contact</h2>
-<p>[DEVELOPER_NAME] · <a href="mailto:jeardomrongj@gmail.com">jeardomrongj@gmail.com</a></p>
+<p>Jootopia · <a href="mailto:jootopia.dev@gmail.com">jootopia.dev@gmail.com</a></p>
 </section>
 
 <section id="th" lang="th">
 <h1>นโยบายความเป็นส่วนตัวของ Teknote</h1>
-<p class="meta">แอป: Teknote: จดโน้ต PDF แพลนเนอร์ (com.teknote.app) · ผู้พัฒนา: [DEVELOPER_NAME] · มีผลตั้งแต่: [EFFECTIVE_DATE]</p>
+<p class="meta">แอป: Teknote: จดโน้ต PDF แพลนเนอร์ (com.teknote.app) · ผู้พัฒนา: Jootopia · มีผลตั้งแต่: 12 พฤศจิกายน 2569</p>
 
-<p><strong>สรุปสั้น ๆ:</strong> Teknote ทำงานแบบออฟไลน์ เราไม่มีระบบบัญชีผู้ใช้หรือเซิร์ฟเวอร์เก็บโน้ตของคุณ และไม่เก็บ ไม่รับ ไม่ขายข้อมูลส่วนบุคคลของคุณ โน้ตทั้งหมดอยู่ในเครื่องของคุณ ข้อมูลจะออกจากเครื่องก็ต่อเมื่อ<em>คุณ</em>เปิดใช้ฟีเจอร์ AI ด้วย API key <em>ของคุณเอง</em> เท่านั้น</p>
+<p><strong>สรุปสั้น ๆ:</strong> Teknote ทำงานแบบออฟไลน์ เราไม่มีระบบบัญชีผู้ใช้หรือเซิร์ฟเวอร์เก็บโน้ตของคุณ และไม่เก็บ ไม่รับ ไม่ขายข้อมูลส่วนบุคคลของคุณ โน้ตทั้งหมดอยู่ในเครื่องของคุณ ข้อมูลจะออกจากเครื่องก็ต่อเมื่อ<em>คุณ</em>เปิดใช้ฟีเจอร์ AI ด้วย API key <em>ของคุณเอง</em> หรือเปิดสำรองขึ้น Google Drive <em>ของคุณเอง</em> เท่านั้น</p>
 
 <h2>1. ข้อมูลที่อยู่ในเครื่องของคุณ</h2>
 <p>สมุด ลายมือ PDF และรูปที่นำเข้า หน้าแพลนเนอร์ และการตั้งค่าแอป ถูกเก็บไว้ในเครื่องของคุณเท่านั้น เราเข้าถึงข้อมูลเหล่านี้ไม่ได้ การลบแอปจะลบข้อมูลนี้ออกจากเครื่อง หากต้องการเก็บสำเนาให้ใช้ปุ่มส่งออกในแอป</p>
 
 <h2>2. การสำรองข้อมูล</h2>
-<p>หากเปิด Android Backup ในเครื่อง Android อาจสำรองฐานข้อมูลของ Teknote ไปยังบัญชี Google ของคุณเอง ซึ่งดำเนินการโดย Android และ Google ตามการตั้งค่าเครื่องของคุณ ไม่ใช่โดยเรา ดู<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a></p>
+<ul>
+  <li><strong>ไฟล์สำรอง:</strong> คุณบันทึกทั้งคลังเป็นไฟล์ได้ และเลือกที่เก็บเองผ่านตัวเลือกไฟล์ของ Android (เช่น ในเครื่องหรือโฟลเดอร์คลาวด์)</li>
+  <li><strong>สำรองขึ้น Google Drive ทุกวัน (Premium ไม่บังคับ):</strong> เมื่อคุณเปิดและลงชื่อเข้าใช้ Teknote จะอัปโหลดไฟล์สำรองของสมุด (รวมไฟล์เสียง) วันละครั้งไปยังโฟลเดอร์ซ่อนของแอปใน Google Drive <em>ของคุณเอง</em> (scope <code>drive.appdata</code>) แอปเห็นเฉพาะไฟล์นั้น ไม่เห็นไฟล์อื่นใน Drive การอัปโหลดส่งจากเครื่องตรงไปยัง Google ผ่าน HTTPS ไม่ผ่านเซิร์ฟเวอร์ของเรา ปิดได้ในตั้งค่า และลบข้อมูลซ่อนได้ใน Google Drive → การตั้งค่า → จัดการแอป → Teknote</li>
+  <li>หากเปิด Android Backup ในเครื่อง Android อาจสำรองข้อมูลของ Teknote ไปยังบัญชี Google ของคุณ ซึ่งดำเนินการโดย Android และ Google ตามการตั้งค่าเครื่องของคุณ ไม่ใช่โดยเรา</li>
+</ul>
+<p>ดู<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a></p>
 
 <h2>3. ฟีเจอร์ AI (ไม่บังคับ ใช้ key ของคุณเอง)</h2>
 <p>Teknote สรุปหน้า ตรวจคำผิด และเช็กความเข้าใจได้ โดยใช้ผู้ให้บริการ AI ที่คุณเลือก ได้แก่ Google Gemini, OpenAI หรือ Anthropic Claude ฟีเจอร์เหล่านี้ปิดอยู่จนกว่าคุณจะใส่ API key ของคุณเอง</p>
@@ -91,8 +105,12 @@
 
 <h2>5. สิทธิ์ที่แอปใช้</h2>
 <ul>
-  <li><strong>อินเทอร์เน็ต</strong>: ใช้เฉพาะคำขอ AI ที่คุณกดเอง และการซื้อผ่าน Google Play</li>
-  <li>ไฟล์และรูป: คุณเลือกเองผ่านตัวเลือกไฟล์ของ Android Teknote ไม่สแกนที่เก็บข้อมูลของคุณ</li>
+  <li><strong>อินเทอร์เน็ต</strong>: ใช้เฉพาะคำขอ AI ที่คุณกดเอง การซื้อผ่าน Google Play และการสำรองขึ้น Google Drive ที่คุณเปิดเอง</li>
+  <li><strong>ไมโครโฟน</strong> (อัดเสียง Premium): อัดเฉพาะตอนคุณกดอัดในสมุด ไฟล์เสียงอยู่ในเครื่องในสมุดนั้น และออกไปพร้อมไฟล์สำรองหรือไฟล์ .teknote ที่คุณสร้างเองเท่านั้น</li>
+  <li><strong>กล้อง / สแกนใบงาน</strong> (Premium): ใช้ตัวสแกนเอกสารของ Google Play services ในเครื่อง Teknote ไม่ขอสิทธิ์กล้อง และได้รับเพียงไฟล์ PDF ที่สแกนเสร็จ</li>
+  <li><strong>ลายนิ้วมือหรือรหัสล็อกเครื่อง</strong> (ล็อกสมุด Premium): Android เป็นผู้ตรวจ Teknote ไม่เห็นลายนิ้วมือหรือรหัสของคุณ รู้เพียงว่าผ่านหรือไม่</li>
+  <li><strong>การแจ้งเตือน</strong>: เตือนสำรองข้อมูลสัปดาห์ละครั้ง ปิดได้</li>
+  <li>ไฟล์และรูป: คุณเลือกเองผ่านตัวเลือกไฟล์หรือตัวเลือกรูปของ Android Teknote ไม่สแกนที่เก็บข้อมูลของคุณ</li>
 </ul>
 
 <h2>6. สิ่งที่เราไม่ทำ</h2>
@@ -108,7 +126,7 @@
 <p>หากนโยบายนี้เปลี่ยน เราจะปรับหน้านี้และวันที่มีผล และแจ้งการเปลี่ยนแปลงสำคัญในบันทึกการอัปเดตแอป</p>
 
 <h2>10. ติดต่อ</h2>
-<p>[DEVELOPER_NAME] · <a href="mailto:jeardomrongj@gmail.com">jeardomrongj@gmail.com</a></p>
+<p>Jootopia · <a href="mailto:jootopia.dev@gmail.com">jootopia.dev@gmail.com</a></p>
 </section>
 </main>
 </body>
