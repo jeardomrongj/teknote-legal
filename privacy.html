@@ -21,9 +21,9 @@
 
 <section id="en">
 <h1>Teknote Privacy Policy</h1>
-<p class="meta">App: Teknote: Notes, PDF &amp; Planner (com.teknote) · Developer: Jootopia · Effective: 12 November 2026</p>
+<p class="meta">App: Teknote: Notes, PDF &amp; Planner (com.teknote) · Developer: Jootopia · Effective: 26 November 2026</p>
 
-<p>Teknote works offline. There are no user accounts and no servers of ours holding your notes, and we don't collect, receive or sell your personal data. Your notes stay on your device. Data leaves the device only if you turn on AI with your own API key, or turn on backup to your own Google Drive.</p>
+<p>Teknote works offline. There are no user accounts and no servers of ours holding your notes, and we don't collect, receive or sell your personal data. Your notes stay on your device. Data leaves the device only if you turn on AI with your own API key, turn on backup to your own Google Drive, or turn on handwriting search (which sends Google only diagnostics about its handwriting reader).</p>
 
 <h2>1. What stays on your device</h2>
 <p>Your notebooks, handwriting, imported PDFs and images, planner pages and app settings are stored only on your device, and we can't see them. Uninstalling the app deletes them from the device, so use the in-app export if you want to keep a copy.</p>
@@ -38,12 +38,16 @@
 <p>When you tap an AI action, Teknote sends only what that request needs (an image of the page, text taken from a PDF, and any follow-up questions you type) directly from your device to that provider over HTTPS. None of it goes through a server of ours. Your API key is kept on your device in the Android Keystore and is sent only to the provider it belongs to, to sign your request.</p>
 <p>The provider handles that content under its own terms and privacy policy and your own account with it (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://openai.com/policies/privacy-policy">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>), so please read those before you start. The provider bills you directly for any usage. If a page has something on it you wouldn't want an outside AI company to process, don't send it.</p>
 
-<h2>4. Purchases</h2>
+<h2>4. Handwriting search (optional)</h2>
+<p>You can turn on Search handwriting in Settings so the library search also finds words you wrote by hand. It stays off until you turn it on. Turning it on downloads Google's handwriting reader (ML Kit Digital Ink Recognition) for Thai and English once, about 40 MB. After that, your handwriting is read on your device only, and the text it finds is kept in a file on your device. Your handwriting and notes are not sent anywhere. Locked notebooks are never read.</p>
+<p>Google's ML Kit may send Google basic information about how the reader itself is working, such as device model, app version and performance numbers, to keep it working and improve it. It doesn't include your handwriting or notes. See <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit's data disclosure</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Turning the setting off stops this.</p>
+
+<h2>5. Purchases</h2>
 <p>Premium is a one-time purchase through Google Play Billing. Google handles your payment details. All we get from Google Play is confirmation that the purchase is valid.</p>
 
-<h2>5. Permissions</h2>
+<h2>6. Permissions</h2>
 <ul>
-  <li>Internet: only for AI requests you start, Google Play purchases and the Drive backup you turn on.</li>
+  <li>Internet: only for AI requests you start, Google Play purchases, the Drive backup you turn on, and downloading the handwriting reader when you turn on handwriting search.</li>
   <li>Microphone (Premium audio notes): records only while you have recording on in a notebook. Recordings are kept in that notebook on your device and only leave it inside backups or .teknote files you make.</li>
   <li>Camera and document scanner (Premium): scanning uses the Google Play services document scanner on your device. Teknote doesn't ask for camera permission and only receives the finished PDF.</li>
   <li>Fingerprint or screen lock (Premium notebook lock): Android does the check. Teknote never sees your fingerprint or PIN, only whether the check passed.</li>
@@ -51,27 +55,27 @@
   <li>Files and images: you pick them yourself in Android's file or photo picker. Teknote doesn't browse your storage.</li>
 </ul>
 
-<h2>6. What we don't do</h2>
-<p>There are no ads, no ad or analytics SDKs and no tracking across apps, and we don't sell or share personal data.</p>
+<h2>7. What we don't do</h2>
+<p>There are no ads, no ad or analytics SDKs (apart from the ML Kit diagnostics in section 4, only if you turn on handwriting search) and no tracking across apps, and we don't sell or share personal data.</p>
 
-<h2>7. Children</h2>
+<h2>8. Children</h2>
 <p>Teknote isn't aimed at children under 13, and we don't knowingly collect data from anyone.</p>
 
-<h2>8. Your choices and rights</h2>
+<h2>9. Your choices and rights</h2>
 <p>We hold none of your data, so there's nothing for us to delete on our side. You can remove your data by deleting notebooks or uninstalling the app, and remove your AI key in Settings. Every step is on <a href="delete-data.html">Deleting your Teknote data</a>. For data held by an AI provider or by Google, contact them. Under Thailand's PDPA and similar laws, you can contact us with any question about this policy.</p>
 
-<h2>9. Changes</h2>
+<h2>10. Changes</h2>
 <p>If this policy changes, we'll update this page and the effective date, and mention big changes in the app's update notes.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Jootopia · <a href="mailto:jootopia.dev@gmail.com">jootopia.dev@gmail.com</a></p>
 </section>
 
 <section id="th" lang="th">
 <h1>นโยบายความเป็นส่วนตัวของ Teknote</h1>
-<p class="meta">แอป: Teknote: จดโน้ต PDF แพลนเนอร์ (com.teknote) · ผู้พัฒนา: Jootopia · มีผลตั้งแต่: 12 พฤศจิกายน 2569</p>
+<p class="meta">แอป: Teknote: จดโน้ต PDF แพลนเนอร์ (com.teknote) · ผู้พัฒนา: Jootopia · มีผลตั้งแต่: 26 พฤศจิกายน 2569</p>
 
-<p>Teknote ใช้งานแบบออฟไลน์ ไม่มีบัญชีผู้ใช้ และเราไม่มีเซิร์ฟเวอร์เก็บโน้ตของคุณ เราไม่เก็บ ไม่รับ และไม่ขายข้อมูลส่วนบุคคลของคุณ โน้ตอยู่ในเครื่องของคุณ ข้อมูลจะออกจากเครื่องก็ต่อเมื่อคุณเปิดใช้ AI ด้วย API key ของคุณเอง หรือเปิดสำรองขึ้น Google Drive ของคุณเองเท่านั้น</p>
+<p>Teknote ใช้งานแบบออฟไลน์ ไม่มีบัญชีผู้ใช้ และเราไม่มีเซิร์ฟเวอร์เก็บโน้ตของคุณ เราไม่เก็บ ไม่รับ และไม่ขายข้อมูลส่วนบุคคลของคุณ โน้ตอยู่ในเครื่องของคุณ ข้อมูลจะออกจากเครื่องก็ต่อเมื่อคุณเปิดใช้ AI ด้วย API key ของคุณเอง เปิดสำรองขึ้น Google Drive ของคุณเอง หรือเปิดค้นหาลายมือ (ซึ่งส่งให้ Google แค่ข้อมูลวินิจฉัยของตัวอ่านลายมือ) เท่านั้น</p>
 
 <h2>1. ข้อมูลที่อยู่ในเครื่องของคุณ</h2>
 <p>สมุด ลายมือ PDF และรูปที่นำเข้า หน้าแพลนเนอร์ และการตั้งค่าแอป เก็บอยู่ในเครื่องของคุณเท่านั้น เรามองไม่เห็นข้อมูลเหล่านี้ ถ้าถอนการติดตั้งแอป ข้อมูลจะหายจากเครื่องด้วย อยากเก็บไว้ให้ส่งออกจากในแอปก่อน</p>
@@ -86,12 +90,16 @@
 <p>ตอนกดใช้ AI แอปจะส่งเฉพาะสิ่งที่คำขอนั้นต้องใช้ (ภาพของหน้า ข้อความจาก PDF และคำถามที่คุณพิมพ์ต่อ) จากเครื่องของคุณไปที่ผู้ให้บริการที่เลือกโดยตรงผ่าน HTTPS ไม่ผ่านเซิร์ฟเวอร์ของเรา API key เก็บไว้ในเครื่องใน Android Keystore และส่งไปให้เจ้าของ key นั้นเท่านั้น เพื่อยืนยันคำขอ</p>
 <p>ผู้ให้บริการจะจัดการเนื้อหานั้นตามข้อกำหนดและนโยบายความเป็นส่วนตัวของเขา และตามบัญชีของคุณกับเขา (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://openai.com/policies/privacy-policy">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>) ควรอ่านก่อนใช้ ค่าใช้งานผู้ให้บริการเก็บจากคุณโดยตรง หน้าไหนมีข้อมูลที่ไม่อยากให้บริษัท AI ภายนอกเห็น ก็อย่าส่งไป</p>
 
-<h2>4. การซื้อ</h2>
+<h2>4. ค้นหาลายมือ (ไม่บังคับ)</h2>
+<p>เปิด Search handwriting ในหน้าตั้งค่าได้ เพื่อให้ช่องค้นหาในคลังเจอคำที่คุณเขียนด้วยลายมือด้วย ค่าเริ่มต้นคือปิด เมื่อเปิด แอปจะดาวน์โหลดตัวอ่านลายมือของ Google (ML Kit Digital Ink Recognition) ภาษาไทยและอังกฤษครั้งเดียว ประมาณ 40 MB จากนั้นอ่านลายมือในเครื่องเท่านั้น ข้อความที่อ่านได้เก็บเป็นไฟล์ในเครื่อง ลายมือและโน้ตไม่ถูกส่งออกไปไหน สมุดที่ล็อกไว้จะไม่ถูกอ่าน</p>
+<p>ML Kit ของ Google อาจส่งข้อมูลพื้นฐานว่าตัวอ่านทำงานเป็นอย่างไร เช่น รุ่นเครื่อง เวอร์ชันแอป และตัวเลขประสิทธิภาพ ให้ Google เพื่อดูแลและปรับปรุงตัวอ่าน ข้อมูลนี้ไม่มีลายมือหรือโน้ตของคุณ ดู<a href="https://developers.google.com/ml-kit/android-data-disclosure">การเปิดเผยข้อมูลของ ML Kit</a> และ<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a> ปิดตัวเลือกนี้เมื่อไหร่ก็หยุดส่ง</p>
+
+<h2>5. การซื้อ</h2>
 <p>Premium ซื้อขาดครั้งเดียวผ่าน Google Play Billing ข้อมูลการชำระเงินอยู่กับ Google เราได้รับจาก Google Play แค่การยืนยันว่าการซื้อถูกต้อง</p>
 
-<h2>5. สิทธิ์ที่แอปใช้</h2>
+<h2>6. สิทธิ์ที่แอปใช้</h2>
 <ul>
-  <li>อินเทอร์เน็ต: ใช้แค่ตอนคุณกดใช้ AI ตอนซื้อผ่าน Google Play และตอนสำรองขึ้น Drive ที่คุณเปิดไว้</li>
+  <li>อินเทอร์เน็ต: ใช้แค่ตอนคุณกดใช้ AI ตอนซื้อผ่าน Google Play ตอนสำรองขึ้น Drive ที่คุณเปิดไว้ และตอนดาวน์โหลดตัวอ่านลายมือเมื่อเปิดค้นหาลายมือ</li>
   <li>ไมโครโฟน (อัดเสียง Premium): อัดเฉพาะตอนที่คุณกดอัดในสมุด ไฟล์เสียงเก็บอยู่ในสมุดนั้นในเครื่อง และจะออกไปก็ต่อเมื่ออยู่ในไฟล์สำรองหรือไฟล์ .teknote ที่คุณสร้างเอง</li>
   <li>กล้องและสแกนเอกสาร (Premium): ใช้ตัวสแกนเอกสารของ Google Play services ในเครื่อง Teknote ไม่ขอสิทธิ์กล้อง และได้รับแค่ไฟล์ PDF ที่สแกนเสร็จแล้ว</li>
   <li>ลายนิ้วมือหรือรหัสล็อกเครื่อง (ล็อกสมุด Premium): Android เป็นคนตรวจ Teknote ไม่เห็นลายนิ้วมือหรือรหัสของคุณ รู้แค่ว่าผ่านหรือไม่ผ่าน</li>
@@ -99,19 +107,19 @@
   <li>ไฟล์และรูป: คุณเลือกเองผ่านตัวเลือกไฟล์หรือตัวเลือกรูปของ Android Teknote ไม่ได้ไล่ดูไฟล์ในเครื่องของคุณ</li>
 </ul>
 
-<h2>6. สิ่งที่เราไม่ทำ</h2>
-<p>ไม่มีโฆษณา ไม่มี SDK โฆษณาหรือวิเคราะห์การใช้งาน ไม่ติดตามคุณข้ามแอป และไม่ขายหรือแบ่งปันข้อมูลส่วนบุคคล</p>
+<h2>7. สิ่งที่เราไม่ทำ</h2>
+<p>ไม่มีโฆษณา ไม่มี SDK โฆษณาหรือวิเคราะห์การใช้งาน (ยกเว้นข้อมูลวินิจฉัยของ ML Kit ในข้อ 4 เฉพาะตอนเปิดค้นหาลายมือ) ไม่ติดตามคุณข้ามแอป และไม่ขายหรือแบ่งปันข้อมูลส่วนบุคคล</p>
 
-<h2>7. เด็ก</h2>
+<h2>8. เด็ก</h2>
 <p>Teknote ไม่ได้ทำมาสำหรับเด็กอายุต่ำกว่า 13 ปี และเราไม่ได้ตั้งใจเก็บข้อมูลของใครเลย</p>
 
-<h2>8. ทางเลือกและสิทธิ์ของคุณ</h2>
+<h2>9. ทางเลือกและสิทธิ์ของคุณ</h2>
 <p>เราไม่มีข้อมูลของคุณ จึงไม่มีอะไรให้ลบฝั่งเรา คุณลบข้อมูลเองได้โดยลบสมุดหรือถอนการติดตั้งแอป และลบ AI key ได้ในหน้าตั้งค่า ขั้นตอนทั้งหมดอยู่ที่ <a href="delete-data.html#th">วิธีลบข้อมูล Teknote</a> ข้อมูลที่อยู่กับผู้ให้บริการ AI หรือ Google ให้ติดต่อเจ้านั้นโดยตรง ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล (PDPA) และกฎหมายทำนองเดียวกัน คุณติดต่อเราเพื่อถามเรื่องนโยบายนี้ได้</p>
 
-<h2>9. การเปลี่ยนแปลง</h2>
+<h2>10. การเปลี่ยนแปลง</h2>
 <p>ถ้านโยบายนี้เปลี่ยน เราจะแก้หน้านี้และวันที่มีผล และบอกเรื่องที่เปลี่ยนสำคัญไว้ในบันทึกการอัปเดตแอป</p>
 
-<h2>10. ติดต่อ</h2>
+<h2>11. ติดต่อ</h2>
 <p>Jootopia · <a href="mailto:jootopia.dev@gmail.com">jootopia.dev@gmail.com</a></p>
 </section>
 </main>
